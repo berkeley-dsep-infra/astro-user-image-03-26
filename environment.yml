@@ -72,15 +72,15 @@ dependencies:
 
 # pip packages, conda preferred check https://anaconda.org/search first!
   - pip:
-    # required for basic functionality
-    - nb2pdf==0.6.2
-    - nbpdfexport==0.2.1
-    # other packages
-    - opencv-python==4.10.0.84
-    - pycodestyle_magic==0.5
-    - stsci.tools==4.1.1
-    - tables==3.10.2
-    - tdtax==0.1.6
-    - tweet-preprocessor==0.6.0
-    - vega==2.6.0
-    - vega3==0.13.0
+      # required for basic functionality
+      - nb2pdf==0.6.2
+      - nbpdfexport==0.2.1
+      # other packages
+      - opencv-python==4.10.0.84
+      - pycodestyle_magic==0.5
+      - stsci.tools==4.1.1
+      - tables==3.10.2
+      - tdtax==0.1.6
+      - tweet-preprocessor==0.6.0
+      - vega==2.6.0
+      - vega3==0.13.0

@@ -1,0 +1,86 @@
+name: astrods
+
+channels:
+  - conda-forge
+  - pytorch
+
+dependencies:
+  # Items required for basic level functionality
+  - sqlite>=3.40
+  - libsqlite>=3.40
+
+  # A linux desktop environment
+  - aiohttp==3.12.13
+  - altair==5.5.0
+  - astroquery==0.4.10
+  - astropy==7.1.0
+  - autopep8==2.3.2
+  - beautifulsoup4==4.13.4
+  - bqplot==0.12.43
+  - cartopy==0.24.0
+  - click==8.2.1
+  - corner==2.2.3
+  - cython==3.1.2
+  - dask==2025.5.1
+  - dask-ml==2024.4.4
+  - distributed==2025.5.1
+  - dustmaps==1.0.14
+  - fire==0.7.0
+  - flake8==7.3.0
+  - flask==3.1.1
+  - gensim==4.3.3
+  - graphviz==13.0.1
+  - ipycanvas==0.13.3
+  - ipyparallel==9.0.1
+  - ipython==9.3.0
+  - ipyvolume==0.6.3
+  - ipywidgets==8.1.7
+  - joblib==1.5.1
+  - jupysql==0.11.1
+  - lightkurve==2.5.0
+  - line_profiler==4.2.0
+  - memory_profiler==0.61.0
+  - mpi4py==4.1.0
+  - mpich==4.3.1
+  - nltk==3.9.1
+  - pandas-bokeh==0.5.5
+  - protobuf==5.29.3
+  - pycodestyle==2.14.0
+  - pydot==4.0.1
+  - pyldavis==3.4.1
+  - pymc==5.23.0
+  - pytest-notebook==0.10.0
+  - pythreejs==2.4.2
+  - pytorch==2.4.0
+  - pytorch-lightning==2.4.0
+  - pytz==2024.2
+  - pyvo==1.6
+  - requests==2.32.4
+  - scikit-image==0.25.2
+  - six==1.17.0
+  - snakeviz==2.2.2
+  - sqlalchemy==2.0.41
+  - torchvision=0.19.0
+  - tpot==1.0.0
+  - tqdm==4.67.1
+  - twine==6.1.0
+  - umap-learn==0.5.7
+  - urllib3==2.5.0
+  - vega_datasets==0.9.0
+  - watermark==2.5.0
+  - xarray==2025.6.1
+
+# pip packages, conda preferred check https://anaconda.org/search first!
+  - pip:
+    # required for basic functionality
+    - nb2pdf==0.6.2
+    - nbpdfexport==0.2.1
+    # other packages
+    - opencv-python==4.10.0.84
+    - pycodestyle_magic==0.5
+    - stsci.tools==4.1.1
+    - tables==3.10.2
+    - tdtax==0.1.6
+    - tweet-preprocessor==0.6.0
+    - vega==2.6.0
+    - vega3==0.13.0

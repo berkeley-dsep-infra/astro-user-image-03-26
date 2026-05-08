@@ -5,10 +5,6 @@ channels:
   - pytorch
 
 dependencies:
-  # Items required for basic level functionality
-  - sqlite>=3.40
-  - libsqlite>=3.40
-
   # A linux desktop environment
   - aiohttp==3.12.13
   - altair==5.5.0
@@ -34,7 +30,6 @@ dependencies:
   - ipyparallel==9.0.1
   - ipython==9.3.0
   - ipyvolume==0.6.3
-  - ipywidgets==8.1.7
   - joblib==1.5.1
   - jupysql==0.11.1
   - lightkurve==2.5.0
@@ -72,9 +67,6 @@ dependencies:
 
 # pip packages, conda preferred check https://anaconda.org/search first!
   - pip:
-      # required for basic functionality
-      - nb2pdf==0.6.2
-      - nbpdfexport==0.2.1
       # other packages
       - opencv-python==4.10.0.84
       - pycodestyle_magic==0.5
